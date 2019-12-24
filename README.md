@@ -6,19 +6,19 @@ The culminating task for the Microsoft Professional Program in Data Science was 
 Features
 There are 47 variables in this dataset. Each row in the dataset represents a United States county, and the dataset we are working with covers two particular years, denoted a, and b. We provide a unique identifier for an individual county, but note that the counties in the test set are distinct from counties in the train set. In other words, no county that appears in the train set will appear in the test set. Thus, county-specific features (i.e. county dummy variables) will not be an option. However, the counties in the test set still share similar patterns as those in the train set and so other feature engineering will work the same as usual.
 
-ID
+#### ID
 county_code :  Unique identifier for each county
 year : Year, denoted as a or b
 state : Unique identifier for each state
 population : Total population
-HOUSING
+#### HOUSING
 renter_occupied_households : Count of renter-occupied households
 pct_renter_occupied : Percent of occupied housing units that are renter-occupied
 median_gross_rent : Median cost of rent
 median_household_income : Median household income
 median_property_value : Median property value
 rent_burden : Median gross rent as a percentage of household income
-ETHNICITY
+#### ETHNICITY
 pct_white : Percent of population that is White alone and not Hispanic or Latino
 pct_af_am : Percent of population that is Black or African American alone and not Hispanic or Latino
 pct_hispanic : Percent of population that is of Hispanic or Latino origin
@@ -27,14 +27,14 @@ pct_asian : Percent of population that is Asian alone and not Hispanic or Latino
 pct_nh_pi : Percent of population that is Native Hawaiian and Other Pacific Islander alone and not Hispanic or Latino
 pct_multiple : Percent of population that is two or more races and not Hispanic or Latino
 pct_other : Percent of population that is other race alone and not Hispanic or Latino
-ECONOMIC
+#### ECONOMIC
 poverty_rate : Percent of the population with income in the past 12 months below the poverty level
 rucc : Rural-Urban Continuum Codes "form a classification scheme that distinguishes metropolitan counties by the population size of their metro area, and nonmetropolitan counties by degree of urbanization and adjacency to a metro area. The official Office of Management and Budget (OMB) metro and nonmetro categories have been subdivided into three metro and six nonmetro categories. Each county in the U.S. is assigned one of the 9 codes." (USDA Economic Research Service)
 urban_influence : Urban Influence Codes "form a classification scheme that distinguishes metropolitan counties by population size of their metro area, and nonmetropolitan counties by size of the largest city or town and proximity to metro and micropolitan areas." (USDA Economic Research Service)
 economic_typology : County Typology Codes "classify all U.S. counties according to six mutually exclusive categories of economic dependence and six overlapping categories of policy-relevant themes. The economic dependence types include farming, mining, manufacturing, Federal/State government, recreation, and nonspecialized counties. The policy-relevant types include low education, low employment, persistent poverty, persistent child poverty, population loss, and retirement destination." (USDA Economic Research Service)
 pct_civilian_labor : Civilian labor force, annual average, as percent of population.
 pct_unemployment : Unemployment, annual average, as percent of population
-HEALTH
+#### HEALTH
 pct_uninsured_adults : Percent of adults without health insurance
 pct_uninsured_children : Percent of children without health insurance
 pct_adult_obesity : Percent of adults who meet clinical definition of obese
@@ -54,7 +54,7 @@ pct_female : Percent of population that is female
 pct_below_18_years_of_age : Percent of population that is below 18 years of age
 pct_aged_65_years_and_older : Percent of population that is aged 65 years or older
 pct_adults_less_than_a_high_school_diploma : Percent of adult population that does not have a high school diploma
-pct_adults_with_high_school_diploma : Percent of adult population which has a high school diploma as highest level of   education achieved
+pct_adults_with_high_school_diploma : Percent of adult population which has a high school diploma as highest level of education achieved
 pct_adults_with_some_college : Percent of adult population which has some college as highest level of education achieved
 pct_adults_bachelors_or_higher : Percent of adult population which has a bachelor's degree or higher as highest level of education achieved
 birth_rate_per_1k : Births per 1,000 of population
